@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the data</p>
+    </div> -->
+  
+    <div class="input">
+      <div class="background">  <!-- BACKGRROUND DIV -->
+        <video loop muted autoplay poster="img/videoframe.jpg" class="bGvideo">
+            <source src="./image/WEATHER BACKGROUND.mp4" type="video/mp4">
+            </video> 
+            </div>
+      <input type="text" placeholder="Enter the city" class="input_text">  <!--Input field -->
+      <input type="submit" value="Submit" class="submit">  <!--Submit Button-->
+    </div>
+  <div class="container">  <!-- RESULT CONTAINER -->
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+      </div>
+    </div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
